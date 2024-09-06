@@ -30,7 +30,7 @@ export const NuevaTareaForm = () => {
         <form onSubmit={form.handleSubmit(onSubmit)}>
             <input
                 placeholder="Nueva tarea..."
-                className="py-2 px-4 border border-gray-400 bg-gray-800 rounded-sm mr-2"
+                className="text-white py-2 px-4 border border-gray-400 bg-gray-800 rounded-sm mr-2"
                 {...form.register('texto')}
             />
 
